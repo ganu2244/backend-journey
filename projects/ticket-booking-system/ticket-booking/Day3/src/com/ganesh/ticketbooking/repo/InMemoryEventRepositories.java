@@ -3,7 +3,7 @@ package com.ganesh.ticketbooking.repo;
 import com.ganesh.ticketbooking.domain.Event;
 import java.util.*;
 
-public class InMemoryEventRepositories implements EventRepositories {
+public class InMemoryEventRepositories implements EventRepository {
     private final Map<String, Event> store = new HashMap<>();
 
     @Override
